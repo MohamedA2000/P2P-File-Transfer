@@ -14,3 +14,17 @@ A client can do any of the following:
   * The listed port is closed on the client
 * Disconnect from the server
   * All registered files will be automatically deregistered
+  
+# Server
+The server facilitates client connections, file registrations, file download requests, and file deregistrations.
+
+# Setup
+```
+$ gcc server.c -o server
+$ gcc client.c -o client
+```
+
+## Server
+```
+$ ./server <SERVER_PORT>
+```
