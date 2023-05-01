@@ -5,7 +5,7 @@ A peer to peer file transferring application written in C using TCP and UCP sock
 A client can do any of the following:
 * Connect to the server
 * Register a file to be downloaded
-  *A new port on the client's connection is opened
+  * A new port on the client's connection is opened
 * Browse registered files
 * Download a listed file
   * Makes a new connection to the client via UDP to facilitate file download
