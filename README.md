@@ -28,3 +28,7 @@ $ gcc client.c -o client
 ```
 $ ./server <SERVER_PORT>
 ```
+## Client
+```
+$ ./client <SERVER_ADDRESS> <SERVER_PORT> <CLIENT_PORT>
+```
